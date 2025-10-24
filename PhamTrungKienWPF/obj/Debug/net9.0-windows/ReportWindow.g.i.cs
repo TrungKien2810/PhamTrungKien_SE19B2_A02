@@ -167,7 +167,7 @@ namespace PhamTrungKienWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;component/reportwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;V1.0.0.0;component/reportwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ReportWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

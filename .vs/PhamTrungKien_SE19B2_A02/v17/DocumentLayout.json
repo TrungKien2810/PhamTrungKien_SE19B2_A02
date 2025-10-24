@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|c:\\users\\tinyg\\documents\\zalorececived\\phamtrungkien_se19b2_a02\\phamtrungkienwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|solutionrelative:phamtrungkienwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|c:\\users\\tinyg\\documents\\zalorececived\\phamtrungkien_se19b2_a02\\phamtrungkienwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|solutionrelative:phamtrungkienwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|c:\\users\\tinyg\\documents\\zalorececived\\phamtrungkien_se19b2_a02\\phamtrungkienwpf\\bookingeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|solutionrelative:phamtrungkienwpf\\bookingeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|c:\\users\\tinyg\\documents\\zalorececived\\phamtrungkien_se19b2_a02\\phamtrungkienwpf\\customereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|solutionrelative:phamtrungkienwpf\\customereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|c:\\users\\tinyg\\documents\\zalorececived\\phamtrungkien_se19b2_a02\\phamtrungkienwpf\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|solutionrelative:phamtrungkienwpf\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|c:\\users\\tinyg\\documents\\zalorececived\\phamtrungkien_se19b2_a02\\phamtrungkienwpf\\customerswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89F6424C-5841-49F0-A1F0-AD70384D2158}|PhamTrungKienWPF\\PhamTrungKienWPF.csproj|solutionrelative:phamtrungkienwpf\\customerswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,66 +13,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 80,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "PhamTrungKienWPF\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\MainWindow.xaml",
-              "RelativeToolTip": "PhamTrungKienWPF\\MainWindow.xaml",
+              "Title": "CustomersWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\CustomersWindow.xaml",
+              "RelativeDocumentMoniker": "PhamTrungKienWPF\\CustomersWindow.xaml",
+              "ToolTip": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\CustomersWindow.xaml*",
+              "RelativeToolTip": "PhamTrungKienWPF\\CustomersWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T12:30:40.485Z",
+              "WhenOpened": "2025-10-24T13:09:14.718Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\appsettings.json",
-              "RelativeDocumentMoniker": "PhamTrungKienWPF\\appsettings.json",
-              "ToolTip": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\appsettings.json",
-              "RelativeToolTip": "PhamTrungKienWPF\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-24T10:02:56.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingEditWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\BookingEditWindow.xaml",
-              "RelativeDocumentMoniker": "PhamTrungKienWPF\\BookingEditWindow.xaml",
-              "ToolTip": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\BookingEditWindow.xaml",
-              "RelativeToolTip": "PhamTrungKienWPF\\BookingEditWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T10:39:25.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerEditWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\CustomerEditWindow.xaml",
-              "RelativeDocumentMoniker": "PhamTrungKienWPF\\CustomerEditWindow.xaml",
-              "ToolTip": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\CustomerEditWindow.xaml",
-              "RelativeToolTip": "PhamTrungKienWPF\\CustomerEditWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T10:15:46.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "PhamTrungKienWPF\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\tinyg\\Documents\\ZaloRececived\\PhamTrungKien_SE19B2_A02\\PhamTrungKienWPF\\LoginWindow.xaml",
-              "RelativeToolTip": "PhamTrungKienWPF\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T10:04:31.752Z"
             }
           ]
         }

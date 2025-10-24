@@ -71,7 +71,7 @@ namespace PhamTrungKienWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;component/customerloginwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;V1.0.0.0;component/customerloginwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CustomerLoginWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

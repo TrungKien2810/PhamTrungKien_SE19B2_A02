@@ -95,7 +95,7 @@ namespace PhamTrungKienWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;component/roomeditwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;V1.0.0.0;component/roomeditwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RoomEditWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

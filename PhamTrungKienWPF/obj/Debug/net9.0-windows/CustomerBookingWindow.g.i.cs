@@ -79,7 +79,7 @@ namespace PhamTrungKienWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;component/customerbookingwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;V1.0.0.0;component/customerbookingwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CustomerBookingWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

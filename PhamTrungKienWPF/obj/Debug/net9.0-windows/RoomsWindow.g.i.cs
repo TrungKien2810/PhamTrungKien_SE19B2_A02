@@ -79,7 +79,7 @@ namespace PhamTrungKienWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;component/roomswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PhamTrungKienWPF;V1.0.0.0;component/roomswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RoomsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
