@@ -1,0 +1,177 @@
+﻿<Window x:Class="PhamTrungKienWPF.ReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Reports - FUMiniHotelSystem"
+        Height="700" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource SurfaceAltBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Border Grid.Row="0" Background="{DynamicResource HeaderBrush}" Padding="15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Orientation="Horizontal">
+                    <TextBlock Text="📊"
+                               FontSize="24"
+                               Foreground="{DynamicResource OnPrimaryBrush}"
+                               Margin="0,0,10,0"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Text="Reports &amp; Analytics"
+                               FontSize="20"
+                               FontWeight="Bold"
+                               Foreground="{DynamicResource OnPrimaryBrush}"
+                               VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <Button Grid.Column="1"
+                        Content="Close"
+                        Style="{DynamicResource DangerButton}"
+                        Padding="15,5"
+                        Click="CloseButton_Click"/>
+            </Grid>
+        </Border>
+
+        <!-- Main Content -->
+        <Border Grid.Row="1" Background="{DynamicResource SurfaceBrush}" Margin="20" CornerRadius="5" Padding="20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Date Range Selection -->
+                <Border Grid.Row="0" Background="{DynamicResource SurfaceAltBrush}" CornerRadius="5" Padding="15" Margin="0,0,0,20">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Text="From Date:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <DatePicker x:Name="dpFromDate" Grid.Column="1" Height="30" Margin="0,0,20,0"/>
+
+                        <TextBlock Grid.Column="2" Text="To Date:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <DatePicker x:Name="dpToDate" Grid.Column="3" Height="30" Margin="0,0,20,0"/>
+
+                        <Button Grid.Column="4"
+                                Content="Generate Report"
+                                Style="{DynamicResource AccentButton}"
+                                Padding="15,5"
+                                Click="GenerateReport_Click"/>
+                    </Grid>
+                </Border>
+
+                <!-- Report Type Selection -->
+                <Border Grid.Row="1" Background="{DynamicResource SurfaceAltBrush}" CornerRadius="5" Padding="15" Margin="0,0,0,20">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Report Type:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,15,0"/>
+                        
+                        <RadioButton x:Name="rbSummary" Content="Summary" IsChecked="True" Margin="0,0,20,0" VerticalAlignment="Center"/>
+                        <RadioButton x:Name="rbRevenueByRoom" Content="Revenue by Room" Margin="0,0,20,0" VerticalAlignment="Center"/>
+                        <RadioButton x:Name="rbRevenueByRoomType" Content="Revenue by Room Type" Margin="0,0,20,0" VerticalAlignment="Center"/>
+                        <RadioButton x:Name="rbCustomerReport" Content="Customer Report" Margin="0,0,20,0" VerticalAlignment="Center"/>
+                        <RadioButton x:Name="rbRoomOccupancy" Content="Room Occupancy" Margin="0,0,20,0" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Report Content -->
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Summary Cards -->
+                    <Grid x:Name="SummaryCards" Grid.Row="0" Margin="0,0,0,20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0" Background="{DynamicResource AccentBrush}" CornerRadius="5" Padding="15" Margin="0,0,10,0">
+                            <StackPanel>
+                                <TextBlock Text="💰" FontSize="24" HorizontalAlignment="Center"/>
+                                <TextBlock x:Name="txtTotalRevenue" Text="0" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White"/>
+                                <TextBlock Text="Total Revenue" FontSize="12" HorizontalAlignment="Center" Foreground="White"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Grid.Column="1" Background="{DynamicResource PrimaryBrush}" CornerRadius="5" Padding="15" Margin="5,0">
+                            <StackPanel>
+                                <TextBlock Text="📋" FontSize="24" HorizontalAlignment="Center"/>
+                                <TextBlock x:Name="txtTotalBookings" Text="0" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White"/>
+                                <TextBlock Text="Total Bookings" FontSize="12" HorizontalAlignment="Center" Foreground="White"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Grid.Column="2" Background="{DynamicResource WarningBrush}" CornerRadius="5" Padding="15" Margin="5,0">
+                            <StackPanel>
+                                <TextBlock Text="👥" FontSize="24" HorizontalAlignment="Center"/>
+                                <TextBlock x:Name="txtTotalCustomers" Text="0" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White"/>
+                                <TextBlock Text="Total Customers" FontSize="12" HorizontalAlignment="Center" Foreground="White"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Grid.Column="3" Background="{DynamicResource InfoBrush}" CornerRadius="5" Padding="15" Margin="10,0,0,0">
+                            <StackPanel>
+                                <TextBlock Text="🏨" FontSize="24" HorizontalAlignment="Center"/>
+                                <TextBlock x:Name="txtTotalRooms" Text="0" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White"/>
+                                <TextBlock Text="Total Rooms" FontSize="12" HorizontalAlignment="Center" Foreground="White"/>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+
+                    <!-- Data Grid -->
+                    <DataGrid x:Name="dgReport" Grid.Row="1"
+                              AutoGenerateColumns="False"
+                              CanUserAddRows="False"
+                              IsReadOnly="True"
+                              SelectionMode="Single"
+                              RowHeaderWidth="0"
+                              GridLinesVisibility="Horizontal"
+                              HeadersVisibility="Column"
+                              AlternatingRowBackground="{DynamicResource SurfaceAltBrush}">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="{DynamicResource SurfaceAltBrush}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Padding" Value="8"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                    </DataGrid>
+                </Grid>
+            </Grid>
+        </Border>
+
+        <!-- Footer -->
+        <Border Grid.Row="2" Background="{DynamicResource FooterBrush}" Padding="15">
+            <TextBlock x:Name="txtReportInfo"
+                       Text="Select a report type and date range to generate reports"
+                       FontSize="12"
+                       HorizontalAlignment="Left"
+                       Foreground="{DynamicResource TextPrimaryBrush}"/>
+        </Border>
+    </Grid>
+</Window>

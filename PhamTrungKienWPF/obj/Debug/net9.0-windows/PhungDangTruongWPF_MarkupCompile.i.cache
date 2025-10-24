@@ -1,0 +1,20 @@
+﻿PhungDangTruongWPF
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongWPF\obj\Debug\net9.0-windows\
+PhungDangTruongWPF
+none
+false
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongWPF\App.xaml
+15724142631
+22-42306584
+20-1524811011
+258-617154760
+BookingDetailsWindow.xaml;BookingEditWindow.xaml;BookingsWindow.xaml;CustomerBookingDetailsWindow.xaml;CustomerBookingWindow.xaml;CustomerDashboardWindow.xaml;CustomerEditWindow.xaml;CustomerLoginWindow.xaml;CustomerRegisterWindow.xaml;CustomersWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ReportWindow.xaml;RoomEditWindow.xaml;RoomsWindow.xaml;
+
+False
+

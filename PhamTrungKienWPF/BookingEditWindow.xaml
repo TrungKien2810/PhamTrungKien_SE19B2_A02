@@ -1,0 +1,78 @@
+﻿<Window x:Class="PhamTrungKienWPF.BookingEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Thêm/Sửa đặt phòng"
+        Height="400" Width="500"
+        WindowStartupLocation="CenterScreen"
+        Background="white">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Text="THÔNG TIN ĐẶT PHÒNG" 
+                   FontSize="20" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <!-- Form -->
+        <StackPanel Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Customer -->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Khách hàng:" VerticalAlignment="Center" Margin="0,0,10,10"/>
+                <ComboBox x:Name="cbCustomer" Grid.Row="0" Grid.Column="1" Margin="0,0,0,10" 
+                          DisplayMemberPath="CustomerFullName" SelectedValuePath="CustomerID"/>
+
+                <!-- Booking Date -->
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Ngày đặt:" VerticalAlignment="Center" Margin="0,0,10,10"/>
+                <DatePicker x:Name="dpBookingDate" Grid.Row="1" Grid.Column="1" Margin="0,0,0,10"/>
+
+                <!-- Total Price -->
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Tổng tiền:" VerticalAlignment="Center" Margin="0,0,10,10"/>
+                <TextBox x:Name="txtTotalPrice" Grid.Row="2" Grid.Column="1" Margin="0,0,0,10"/>
+
+                <!-- Booking Status -->
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Trạng thái:" VerticalAlignment="Center" Margin="0,0,10,10"/>
+                <ComboBox x:Name="cbBookingStatus" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10">
+                    <ComboBoxItem Content="Đã xác nhận" Tag="1"/>
+                    <ComboBoxItem Content="Đang chờ" Tag="2"/>
+                    <ComboBoxItem Content="Đã hủy" Tag="3"/>
+                </ComboBox>
+            </Grid>
+        </StackPanel>
+
+        <!-- Buttons -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button Content="Lưu" 
+                    Background="#4CAF50" 
+                    Foreground="White"
+                    Padding="10,5"
+                    Margin="0,0,10,0"
+                    Click="SaveButton_Click"/>
+            <Button Content="Hủy" 
+                    Background="#9E9E9E" 
+                    Foreground="White"
+                    Padding="10,5"
+                    Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

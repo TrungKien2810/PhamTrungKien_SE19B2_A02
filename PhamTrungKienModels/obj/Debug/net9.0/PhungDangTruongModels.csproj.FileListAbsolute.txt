@@ -1,0 +1,11 @@
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\bin\Debug\net9.0\PhungDangTruongModels.deps.json
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\bin\Debug\net9.0\PhungDangTruongModels.dll
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\bin\Debug\net9.0\PhungDangTruongModels.pdb
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\obj\Debug\net9.0\PhungDangTruongModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\obj\Debug\net9.0\PhungDangTruongModels.AssemblyInfoInputs.cache
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\obj\Debug\net9.0\PhungDangTruongModels.AssemblyInfo.cs
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\obj\Debug\net9.0\PhungDangTruongModels.csproj.CoreCompileInputs.cache
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\obj\Debug\net9.0\PhungDangTruongModels.dll
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\obj\Debug\net9.0\refint\PhungDangTruongModels.dll
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\obj\Debug\net9.0\PhungDangTruongModels.pdb
+C:\Users\PHUNG DANG TRUONG\Documents\PhungDangTruong_QE190146_SE19B2\PhungDangTruongModels\obj\Debug\net9.0\ref\PhungDangTruongModels.dll
